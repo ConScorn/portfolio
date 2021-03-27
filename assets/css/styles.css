@@ -1,0 +1,15 @@
+*{
+    color: orange;
+    font-family: sans-serif;
+    position: sticky;
+}
+
+/* element styles */
+body {
+    padding: 24px;
+}
+html {
+    background-color: darkblue;
+}
+
+/* classes */
