@@ -1,15 +1,69 @@
 *{
-    color: orange;
-    font-family: sans-serif;
+    color: white;
+    font-family: Noto Sans;
     position: sticky;
+    margin: 0;
+    padding: 0;
 }
 
 /* element styles */
 body {
-    padding: 24px;
+    display: flex;
+
 }
 html {
-    background-color: darkblue;
+    background-color: white;
 }
 
 /* classes */
+
+.header .sidenav {
+    background-color: #56b58a;
+    padding: 24px;
+    font-size: 20px;
+    /* position: fixed; */
+    min-height: 100%;
+    width: 210px;
+}
+
+.sidenav h1 {
+    line-height: 120%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sidenav img {
+    padding: 5px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.sidenav li {
+    text-align: center;
+    font-size: smaller;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: #3f4743;
+    fill: #3f4743;
+}
+
+.sidenav svg:hover {
+    fill: #3f4743;
+}
+
+.header {
+    min-height: 100%;
+}
+
+.main {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
