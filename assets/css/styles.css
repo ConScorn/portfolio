@@ -1,69 +1,159 @@
-*{
-    color: white;
-    font-family: Noto Sans;
-    position: sticky;
-    margin: 0;
-    padding: 0;
+* {
+  color: white;
+  font-family: Noto Sans;
+  position: sticky;
+  margin: 0;
+  padding: 0;
 }
 
 /* element styles */
 body {
-    display: flex;
-
+  display: flex;
 }
 html {
-    background-color: white;
+  background-color: white;
 }
 
 /* classes */
 
 .header .sidenav {
-    background-color: #56b58a;
-    padding: 24px;
-    font-size: 20px;
-    /* position: fixed; */
-    min-height: 100%;
-    width: 210px;
+  background-color: #56b58a;
+  padding: 24px;
+  font-size: 20px;
+  /* position: fixed; */
+  min-height: 100%;
+  width: 210px;
 }
 
 .sidenav h1 {
-    line-height: 120%;
-    font-size: 20px;
-    text-align: center;
+  line-height: 120%;
+  font-size: 20px;
+  text-align: center;
 }
 
 .sidenav img {
-    padding: 5px;
-    margin-top: 20%;
-    margin-bottom: 20%;
+  padding: 5px;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .sidenav li {
-    text-align: center;
-    font-size: smaller;
-    margin-top: 30%;
-    margin-bottom: 30%;
+  text-align: center;
+  font-size: smaller;
+  margin-top: 30%;
+  margin-bottom: 30%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.sidenav a:hover {
-    color: #3f4743;
-    fill: #3f4743;
+.navigator:hover > svg {
+  color: #3f4743;
+  fill: #3f4743;
 }
 
-.sidenav svg:hover {
-    fill: #3f4743;
+.navigator:hover {
+  color: #3f4743;
+  fill: #3f4743;
 }
 
 .header {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 .main {
-    background-color: blue;
-    height: 50px;
-    width: 100%;
+  /* background-color: rgb(58, 121, 238); */
+  min-height: 100vh;
+  width: 100%;
+}
+
+.about-me {
+  height: 320px;
+  display: flex;
+}
+
+.about-me-info {
+  background-color: #f5f5f5;
+  flex-grow: 1;
+  max-width: 50%;
+  padding: 1rem;
+}
+
+.about-me-title {
+  font-size: 220%;
+  padding: 1rem;
+  color: #303030;
+}
+
+.occupation {
+  font-size: 150%;
+  padding-left: 1rem;
+  color: #a9a9a9;
+}
+
+.about-me-text {
+  padding: 1rem;
+  line-height: 120%;
+  color: #505050;
+}
+
+.portrait {
+  background-color: #f5f5f5;
+  flex-grow: 2;
+}
+
+.portrait-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.latest-button {
+  background-color: #56b58a;
+  margin: 1em;
+  padding: 1rem;
+}
+
+.my-projects {
+  padding: 1rem;
+}
+
+.my-projects-title {
+  font-size: 180%;
+  color: #303030;
+  padding: 1rem;
+}
+
+h4::before {
+  content: "";
+  height: 34px;
+  width: 4px;
+  background: #56b58a;
+  float: left;
+  margin-right: 1rem;
+}
+
+.refactor-project {
+  background-image: url("/portfolio/assets/images/horiseon.jpg");
+  width: 30%;
+  height: 25rem;
+  padding: 8rem;
+  margin: 1rem;
+}
+
+#refactor-title {
+  background-color: #56b58a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+
+#refactor-tech {
+  font-weight: 500;
 }
