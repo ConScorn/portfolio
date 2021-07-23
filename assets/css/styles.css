@@ -15,7 +15,7 @@ html {
 }
 
 /* classes */
-
+/* sidenav bar */
 .header .sidenav {
   background-color: #56b58a;
   padding: 24px;
@@ -32,11 +32,18 @@ html {
   text-align: center;
 }
 
+/* sidenav image */
+
 .sidenav img {
-  padding: 5px;
   margin-top: 20%;
   margin-bottom: 20%;
+  border-right: #f5f5f5 10px outset;
+  border-bottom: #f5f5f5 10px outset;
+  border-left: #f5f5f5 10px outset;
+  border-top: #f5f5f5 10px outset;
 }
+
+/* sidenav list items */
 
 .sidenav li {
   text-align: center;
@@ -47,6 +54,11 @@ html {
 
 a {
   text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+svg {
+  transition-duration: 0.4s;
 }
 
 .navigator:hover > svg {
@@ -64,11 +76,12 @@ a {
 }
 
 .main {
-  /* background-color: rgb(58, 121, 238); */
   min-height: 100vh;
   width: 100%;
   margin-left: 210px;
 }
+
+/* about me */
 
 .about-me {
   height: 320px;
@@ -76,7 +89,6 @@ a {
 }
 
 .about-me-info {
-  /* background-color: #f5f5f5; */
   flex-grow: 1;
   max-width: 50%;
   padding: 1rem;
@@ -100,8 +112,9 @@ a {
   color: #505050;
 }
 
+/* portrait */
+
 .portrait {
-  /* background-color: #f5f5f5; */
   flex-grow: 2;
 }
 
@@ -111,6 +124,10 @@ a {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-right: #f5f5f5 10px outset;
+  border-bottom: #f5f5f5 10px outset;
+  border-left: #56b58a 10px outset;
+  border-top: #56b58a 10px outset;
 }
 
 .latest-button {
@@ -118,6 +135,13 @@ a {
   margin: 1em;
   padding: 1rem;
   cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.latest-button:hover {
+  background-color: white;
+  color: #303030;
 }
 
 .my-projects {
@@ -141,13 +165,13 @@ h4::before {
 }
 
 .refactor-project {
-  /* background-image: url("/portfolio/assets/images/horiseon.jpg"); */
   display: inline-block;
   width: 47%;
   height: 50vh;
   padding: 1rem;
   margin: 1rem;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 #refactor-title {
@@ -164,13 +188,15 @@ h4::before {
   font-weight: 500;
 }
 
-/* #refactor-image {
-  height: inherit;
-  border-right: #f5f5f5 10px outset;
-  border-bottom: #f5f5f5 10px outset;
-  border-left: #56b58a 10px outset;
-  border-top: #56b58a 10px outset;
-} */
+#refactor-title:hover {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+#refactor-title:hover > #refactor-tech {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
 
 .refactor-project img {
   height: inherit;
@@ -181,13 +207,13 @@ h4::before {
 }
 
 .vibe-check {
-  /* background-image: url("/portfolio/assets/images/horiseon.jpg"); */
   display: inline-block;
   width: 47%;
   height: 50vh;
   padding: 1rem;
   margin: 1rem;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 #vibe-check-title {
@@ -204,11 +230,54 @@ h4::before {
   font-weight: 500;
 }
 
+#vibe-check-title:hover {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+#vibe-check-title:hover > #vibe-check-tech {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
 .vibe-check img {
   height: inherit;
-  /* width: inherit; */
   border-right: #f5f5f5 10px outset;
   border-bottom: #f5f5f5 10px outset;
   border-left: #56b58a 10px outset;
   border-top: #56b58a 10px outset;
+}
+
+.contacts {
+  background-color: #56b58a;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  line-height: 140%;
+}
+
+.contact:hover > svg {
+  color: #3f4743;
+  fill: #3f4743;
+}
+
+.contact:hover {
+  color: #3f4743;
+  fill: #3f4743;
+}
+
+#email-link {
+  display: inline-block;
+  width: 30vh;
+}
+
+#linkedin-link {
+  display: inline-block;
+  width: 30vh;
+}
+
+#github-link {
+  display: inline-block;
+  width: 30vh;
 }
