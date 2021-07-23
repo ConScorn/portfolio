@@ -6,7 +6,7 @@ This website is my professional portfolio! It was created as a way to demonstrat
 
 To view, simply navigate to the deployed site(https://github.com/ConScorn/portfolio). You can also clone the entire repository at (https://github.com/ConScorn/portfolio).
 
-![screenshot](assets/images/screenshot.PNG)
+![screenshot](assets/images/screenshot.png)
 
 ## License
 
