@@ -15,7 +15,7 @@ html {
 }
 
 /* classes */
-/* sidenav bar */
+/* sidenav bar ///////////////////////////////////////////////////////////////////////*/
 .header .sidenav {
   background-color: #56b58a;
   padding: 24px;
@@ -81,7 +81,7 @@ svg {
   margin-left: 210px;
 }
 
-/* about me */
+/* about me ///////////////////////////////////////////////////////////////////////*/
 
 .about-me {
   height: 320px;
@@ -130,6 +130,8 @@ svg {
   border-top: #56b58a 10px outset;
 }
 
+/* latest project button */
+
 .latest-button {
   background-color: #56b58a;
   margin: 1em;
@@ -143,6 +145,8 @@ svg {
   background-color: white;
   color: #303030;
 }
+
+/* my projects /////////////////////////////////////////////////////////////////////////*/
 
 .my-projects {
   padding: 1rem;
@@ -163,6 +167,8 @@ h4::before {
   float: left;
   margin-right: 1rem;
 }
+
+/* code refactoring project */
 
 .refactor-project {
   display: inline-block;
@@ -206,6 +212,8 @@ h4::before {
   border-top: #56b58a 10px outset;
 }
 
+/* vibe check project */
+
 .vibe-check {
   display: inline-block;
   width: 47%;
@@ -247,6 +255,8 @@ h4::before {
   border-left: #56b58a 10px outset;
   border-top: #56b58a 10px outset;
 }
+
+/* contacts /////////////////////////////////////////////////////////////////////// */
 
 .contacts {
   background-color: #56b58a;
