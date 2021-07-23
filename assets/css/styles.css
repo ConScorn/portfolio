@@ -168,6 +168,48 @@ h4::before {
   margin-right: 1rem;
 }
 
+.rps-project {
+  display: inline-block;
+  width: 100%;
+  height: 90vh;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#rps-title {
+  background-color: #56b58a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+
+#rps-tech {
+  font-weight: 500;
+}
+
+#rps-title:hover {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+#rps-title:hover > #rps-tech {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+.rps-project img {
+  height: inherit;
+  border-right: #f5f5f5 10px outset;
+  border-bottom: #f5f5f5 10px outset;
+  border-left: #56b58a 10px outset;
+  border-top: #56b58a 10px outset;
+}
+
 /* code refactoring project */
 
 .refactor-project {
