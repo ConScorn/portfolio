@@ -4,7 +4,7 @@
 
 This website is my professional portfolio! It was created as a way to demonstrate skills and interests to potential employers. As time goes on, I will update it to display recent, and current projects.
 
-To view, simply navigate to the deployed site(https://github.com/ConScorn/portfolio). You can also clone the entire repository at (https://github.com/ConScorn/portfolio).
+To view, simply navigate to the deployed site(https://conscorn.github.io/portfolio/). You can also clone the entire repository at (https://github.com/ConScorn/portfolio).
 
 ![screenshot](assets/images/screenshot.png)
 
