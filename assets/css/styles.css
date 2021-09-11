@@ -173,98 +173,10 @@ h4::before {
 
 /* rock, paper, scissors */
 
-.rps-project {
+.vibe-check {
   display: inline-block;
   width: 100%;
   height: 90vh;
-  padding: 1rem;
-  margin: 1rem;
-  cursor: pointer;
-  transition-duration: 0.4s;
-}
-
-#rps-title {
-  background-color: #56b58a;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  font-weight: 900;
-  line-height: 1.5rem;
-}
-
-#rps-tech {
-  font-weight: 500;
-}
-
-#rps-title:hover {
-  transition-duration: 0.4s;
-  color: #3f4743;
-}
-
-#rps-title:hover > #rps-tech {
-  transition-duration: 0.4s;
-  color: #3f4743;
-}
-
-.rps-project img {
-  height: inherit;
-  border-right: #f5f5f5 10px outset;
-  border-bottom: #f5f5f5 10px outset;
-  border-left: #56b58a 10px outset;
-  border-top: #56b58a 10px outset;
-}
-
-/* code refactoring project */
-
-.refactor-project {
-  display: inline-block;
-  width: 47%;
-  height: 50vh;
-  padding: 1rem;
-  margin: 1rem;
-  cursor: pointer;
-  transition-duration: 0.4s;
-}
-
-#refactor-title {
-  background-color: #56b58a;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  font-weight: 900;
-  line-height: 1.5rem;
-}
-
-#refactor-tech {
-  font-weight: 500;
-}
-
-#refactor-title:hover {
-  transition-duration: 0.4s;
-  color: #3f4743;
-}
-
-#refactor-title:hover > #refactor-tech {
-  transition-duration: 0.4s;
-  color: #3f4743;
-}
-
-.refactor-project img {
-  height: inherit;
-  border-right: #f5f5f5 10px outset;
-  border-bottom: #f5f5f5 10px outset;
-  border-left: #56b58a 10px outset;
-  border-top: #56b58a 10px outset;
-}
-
-/* vibe check project */
-
-.vibe-check {
-  display: inline-block;
-  width: 47%;
-  height: 50vh;
   padding: 1rem;
   margin: 1rem;
   cursor: pointer;
@@ -285,17 +197,105 @@ h4::before {
   font-weight: 500;
 }
 
-#vibe-check-title:hover {
+#vibe-check:hover {
   transition-duration: 0.4s;
   color: #3f4743;
 }
 
-#vibe-check-title:hover > #vibe-check-tech {
+#vibe-check:hover > #rps-tech {
   transition-duration: 0.4s;
   color: #3f4743;
 }
 
 .vibe-check img {
+  height: inherit;
+  border-right: #f5f5f5 10px outset;
+  border-bottom: #f5f5f5 10px outset;
+  border-left: #56b58a 10px outset;
+  border-top: #56b58a 10px outset;
+}
+
+/* quiz project */
+
+.quiz-project {
+  display: inline-block;
+  width: 47%;
+  height: 50vh;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#quiz-title {
+  background-color: #56b58a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+
+#quiz-tech {
+  font-weight: 500;
+}
+
+#quiz-title:hover {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+#quiz-title:hover > #quiz-tech {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+.quiz-project img {
+  height: inherit;
+  border-right: #f5f5f5 10px outset;
+  border-bottom: #f5f5f5 10px outset;
+  border-left: #56b58a 10px outset;
+  border-top: #56b58a 10px outset;
+}
+
+/* work day scheduler project */
+
+.workday-project {
+  display: inline-block;
+  width: 47%;
+  height: 50vh;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#workday-title {
+  background-color: #56b58a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+
+#workday-tech {
+  font-weight: 500;
+}
+
+#workday-title:hover {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+#workday-title:hover > #workday-tech {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+.workday-project img {
   height: inherit;
   border-right: #f5f5f5 10px outset;
   border-bottom: #f5f5f5 10px outset;
@@ -338,3 +338,51 @@ h4::before {
   display: inline-block;
   width: 30vh;
 }
+
+#resume-link {
+  display: inline-block;
+  width: 30vh;
+}
+
+
+/* .rps-project {
+  display: inline-block;
+  width: 100%;
+  height: 90vh;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#rps-title {
+  background-color: #56b58a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+
+#rps-tech {
+  font-weight: 500;
+}
+
+#rps-title:hover {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+#rps-title:hover > #rps-tech {
+  transition-duration: 0.4s;
+  color: #3f4743;
+}
+
+.rps-project img {
+  height: inherit;
+  border-right: #f5f5f5 10px outset;
+  border-bottom: #f5f5f5 10px outset;
+  border-left: #56b58a 10px outset;
+  border-top: #56b58a 10px outset;
+} */
